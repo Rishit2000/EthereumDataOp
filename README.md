@@ -1,6 +1,6 @@
 # EthereumDataOp
 
-This project explains how to export transaction and trace data using the BiqQuery Python Client. Thereafter, it shows how to simulate algorithm 1 of the [paper](https://saltaformaggio.ece.gatech.edu/publications/yao2024pulling.pdf) using SQL.
+This project explains how to export transaction and trace data for Ethereum using the BiqQuery Python Client. Thereafter, it shows how to simulate algorithm 1 of the [paper](https://saltaformaggio.ece.gatech.edu/publications/yao2024pulling.pdf) using SQL.
 
 ## Download Ethereum Transaction records in CSV 
 
