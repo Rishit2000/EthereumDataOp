@@ -44,6 +44,8 @@ print("Saved data to traces.csv")
 ## Create PostGreSQL tables using the CSV files
 
 ```bash
+-- Assumed VARCHAR datatype for all columns for simplicity.
+
 CREATE TABLE transactions (
   hash VARCHAR,
   nonce VARCHAR,
@@ -87,8 +89,10 @@ CREATE TABLE traces (
   block_timestamp VARCHAR
 );
 
+-- psql commands to import CSV data to SQL tables.
 \copy traces FROM '\path\traces.csv' WITH (FORMAT csv, HEADER true);
 \copy transactions FROM '\path\transactions.csv' WITH (FORMAT csv, HEADER true);
+
 ```
 
 ## Run the following code to get all the associated contracts for given DCW
