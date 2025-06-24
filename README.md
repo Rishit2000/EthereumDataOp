@@ -45,7 +45,6 @@ print("Saved data to traces.csv")
 
 ```bash
 -- Assumed VARCHAR datatype for all columns for simplicity.
-
 CREATE TABLE transactions (
   hash VARCHAR,
   nonce VARCHAR,
