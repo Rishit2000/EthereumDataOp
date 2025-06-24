@@ -43,5 +43,6 @@ CREATE TABLE traces (
   block_timestamp VARCHAR
 );
 
+-- psql commands to import CSV data to SQL tables.
 \copy traces FROM '\path\traces.csv' WITH (FORMAT csv, HEADER true);
 \copy transactions FROM '\path\transactions.csv' WITH (FORMAT csv, HEADER true);
