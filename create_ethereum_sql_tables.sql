@@ -1,3 +1,5 @@
+-- Assumed VARCHAR datatype for all columns for simplicity.
+
 CREATE TABLE transactions (
   hash VARCHAR,
   nonce VARCHAR,
