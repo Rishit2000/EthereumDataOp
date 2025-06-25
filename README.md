@@ -114,7 +114,7 @@ WITH RECURSIVE associated_contracts AS (
          */
         ON t.hash = tr.transaction_hash
     WHERE
-        t.from_address = '0x4b0c6f0297cee4b551b6fab3277067b64b238990' -- 40 char hexadecimal string for Ethereum as per paper Section 2.
+        t.from_address = '0xb735bf53abc79525a4f585a004a620d08cc66b27' -- 40 char hexadecimal string for Ethereum as per paper Section 2.
         AND tr.trace_type IN ('create')
         AND tr.to_address IS NOT NULL
 
