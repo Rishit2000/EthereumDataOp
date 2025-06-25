@@ -39,7 +39,8 @@ CREATE TABLE traces (
   status VARCHAR,
   block_timestamp VARCHAR,
   block_number VARCHAR,
-  block_hash VARCHAR
+  block_hash VARCHAR,
+  trace_id VARCHAR
 );
 
 -- psql commands to import CSV data to SQL tables.
